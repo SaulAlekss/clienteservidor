@@ -1,7 +1,7 @@
 """
 Nombre: Circunferencia.py
 Objetivo: muestra como trabajar en objetos con python
-Autor:
+Autor: Saul
 Fecha:30 de julio de 2020
 """
 import math

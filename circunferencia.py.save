@@ -1,0 +1,26 @@
+
+"""
+Nombre : Circunferencia.py
+Objetivo: Permite calcular el area de una circunferencia
+Autor: Saul
+Fecha: 28 de julio de 2020
+"""
+#Importamos libreria math
+import math
+
+#-----------------------------------------------
+#Funcion para calcular área
+#-----------------------------------------------
+def calcularArea(valorRadio):
+	return math.pi.math.pow(valorRadio,2)
+
+#Módulo principal
+def main():
+	print("---Programa para calcular Área de Circunferencia---")
+	vradio = int (input("Introduce valor del radio. "))
+	print("\n")
+	print("El área de la circunferencia con radio igual a: {},es: {}")
+
+
+if __name__ == "__main__":
+	main()

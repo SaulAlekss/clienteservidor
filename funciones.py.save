@@ -1,0 +1,42 @@
+"""
+Nombre: funciones.py
+Objetivo: Muestra la operacion de las funciones en python
+Autor: Saul
+Fecha: 27 de julio 2020
+"""
+
+def mensaje():
+	print("Hola desde Mensaje")
+
+def regresaMensaje():
+	return "saludo desde regresaMensaje"
+
+def printMensaje(msg):
+	print(msg)def suma(n1,n2):
+	return n1+n2
+## Tarea : Agregar la tres funciones restantes y subir a github la carpeta en modo interactivo(terminal)
+def main():
+
+	ciclo = 'S'
+	while ciclo == 'S' or ciclo == 's':
+	
+		#Invocamos funcion mensaje()
+		mensaje()
+		#Invocamos funcion regresaMensaje()
+		print(regresaMensaje())
+		#Invocamos funcion printMensaje()
+		printMensaje("Hola te saludo ...")
+
+
+		#Leemos los datos por teclado
+		a = int(input("Ingresa el primer numero entero: "))
+		b = int (input("Ingresa el segundo entero: "))
+		#Invocamos la funcion suma
+		print("La suma es: ", suma(a,b))
+		#Preguntamos al usuario por otra operacion
+		ciclo = input("¿Desea otra operación (s/n)?")
+	else:
+		print("Fin del programa")
+
+if __name__== "__main__":
+	main()

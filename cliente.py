@@ -1,3 +1,9 @@
+"""
+Nombre: cliente.py
+Objetivo: muestra com funciona cliente
+Autor: Saul
+Fecha:julio de 2020
+"""
 #!/usr/bin/env python3
 
 import socket
